@@ -29,4 +29,5 @@ for(i; i<5; i++){
     sum += score[i]
 }
 console.log(sum)
+
 console.log('i=', i)
