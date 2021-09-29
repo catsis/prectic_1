@@ -6,4 +6,4 @@ function no(min, max){
     return result
 }
 
-console.log(no(4, 10))
+console.log(no(5, 10))
