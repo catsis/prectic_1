@@ -1,5 +1,5 @@
 function no(min, max){
-    var result = []
+    var result = [ ]
     for (var i = min; i <= max; i++){
         result.push(i)
     }
