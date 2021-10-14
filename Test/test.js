@@ -4,12 +4,13 @@ var hello = function(){
 
 hello()
 
-function hello2(){
-    for(var i = 1; i <= 20; i++){
-        if(!(i%2))continue
-        console.log("Hello2!!", i)
+function hello2(n){
+    for (var i = 1; i <= n; i++){
+        if (!(i%2))continue
+            console.log("Hello2!!", i)
     }
 }
 
-hello2()
+hello2(20)
+
 //hello()

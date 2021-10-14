@@ -1,4 +1,4 @@
-var age = 25
+var age = 100
 
 if ( age >= 75) {
     console.log('old men')
