@@ -1,15 +1,17 @@
 
-function add(a, b){
+function swap(a, b){
     var temp = a
     a = b
     b = temp
-    console.log(a, b)
 }
 
-var num1 = 10
-var num2 = 20
+var num1 = {
+    a : 10
+}
+var num2 = {
+    b : 20
+}
 
-
-add(num1, num2)
+swap(num1, num2)
 
 console.log(num1, num2)
